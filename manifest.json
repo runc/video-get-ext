@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "视频采集助手",
+  "description": "视频采集助手，采集视频就是这么轻松简单",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icons8.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "notifications",
+    "webRequest",
+    "cookies",
+    "webRequestBlocking",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
